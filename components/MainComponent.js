@@ -331,8 +331,10 @@ class Main extends Component {
                     connectionInfo.type, ToastAndroid.LONG);
         });
 
+        // this.showNetInfo();
+
         this.unsubscribeNetInfo = NetInfo.addEventListener(connectionInfo => {
-            this.handleConnectivityChange(connectionInfo);
+            // this.handleConnectivityChange(connectionInfo);
         });
     }
 
